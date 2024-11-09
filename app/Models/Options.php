@@ -5,16 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Category extends Model
+class Options extends Model
 {
     use HasFactory;
-    protected $table = 'categories';
+    protected $table = 'options';
     protected $fillable = [
+        'category_id',
         'name',
-        'description'
     ];
-    public function options()
-    {
-        return $this->hasMany(Options::class);
-    }
 }
