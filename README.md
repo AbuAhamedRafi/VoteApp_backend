@@ -24,7 +24,7 @@ This is the backend for a simple voting application, built with Laravel. The app
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AbuAhamedRafi/VoteApp_backend.git
    cd voting-app-backend
    ```
 
